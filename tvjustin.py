@@ -202,8 +202,8 @@ def main():
             sys.exit(1)
 
         m3u_content = []
-        # --- DEĞİŞİKLİK: Çıktı dosyası adı ---
-        output_filename = "justintv_kanallar.m3u8"
+        # --- KRİTİK DEĞİŞİKLİK: Çıktı dosyası adı kanallar5.m3u8 oldu ---
+        output_filename = "kanallar5.m3u8"
         print(f"\n📺 {len(channels)} kanal için M3U8 linkleri oluşturuluyor...")
         created = 0
 
